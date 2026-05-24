@@ -22,10 +22,15 @@ Representa o quarto em que o hóspede ficará hospedado. Contém o número do qu
 ### Pagamentos
 Representa os pagamentos realizados durante pelo hóspede na hospedagem. Contém data de pagamento, forma de pagamento, valor e a hora do pagamento.
 
+### HospedagemQuarto
+Representa a ligação entre a hospedagem e o quarto, relacionando-os.
+
+### FuncionarioLimpeza
+Representa a ligação entre os funcinários da limpeza e o quarto, relacionando-os.
 
 ## Relacionamentos
 ### Hospede: 
-- Pode realizar uma ou várias reservas
+- Pode realizar várias reservas
 - Pode fazer avaliações depois de uma hospedagem
 - Pode se hospedar uma ou várias vezes
 
@@ -58,4 +63,8 @@ Representa os pagamentos realizados durante pelo hóspede na hospedagem. Contém
 - Pode gerenciar muitas hospedagens
 - Pode limpar muitos quartos
 
+### HospedagemQuarto:
+- Relaciona uma hospedagem com um quarto
 
+### FuncionarioLimpeza
+- Relaciona um funcionário da limpeza com um quarto
